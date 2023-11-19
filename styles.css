@@ -1,24 +1,25 @@
 * {
-    background-color: #262626;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background-color: #262626;*/
+    font-family: sans-serif;
 }
 
 nav {
-    width: 100%;
+    width: auto;
+    height: 50%;
     background-color: #3e5437;
-    padding-left: 2px;
+    /*overflow: hidden;*/
   }
   
   .logo-image {
-    width: 146px; 
-    height: 68px;
-    display: inline-block;
-    vertical-align: top;
+    margin-top: -50px;
+    height:auto;
+    width:auto;
+    float: left;
   }
   
   .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #3e5437;
     align-items: center;
   }
@@ -26,21 +27,23 @@ nav {
   .nav-links {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #3e5437;
   }
   
   .nav-item {
     display: flex;
-    padding: 10px 15px;
-    justify-content: space-between;
+    padding: 8px;
+    justify-content: space-around;
     align-items: center;
     background-color: #3e5437;
+    font-weight: bold;
+    font-size: x-large;
   }
   
   .nav-item a {
-    display: inline-block;
+    display: flex;
     padding: 10px 15px;
     text-decoration: none;
     color: black;
