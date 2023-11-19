@@ -1,23 +1,25 @@
 * {
-    background-color: #3D3772;
+    background-color: #262626;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
     width: 100%;
-    background-color: #1D1D43;
-    padding-left: 5px;
-    /*padding-right: 10px;*/
+    background-color: #3e5437;
+    padding-left: 2px;
   }
   
-  .logo {
+  .logo-image {
+    width: 146px; 
+    height: 68px;
     display: inline-block;
+    vertical-align: top;
   }
   
   .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #1D1D43;
+    background-color: #3e5437;
     align-items: center;
   }
 
@@ -26,7 +28,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1D1D43;
+    background-color: #3e5437;
   }
   
   .nav-item {
@@ -34,32 +36,28 @@ nav {
     padding: 10px 15px;
     justify-content: space-between;
     align-items: center;
-    background-color: #1D1D43;
+    background-color: #3e5437;
   }
   
   .nav-item a {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color: black;
   }
   
   .navtitle {
-    background-color: #1D1D43;
+    background-color: #3e5437;
   }
 
   .nav-item:hover {
-    background-color: white;
+    background-color: #f87c23;
   }
   
   .nav-item:hover a {
-    color: darkgreen;
+    color: #f87c23;
   }
-  
-  .logo img {
-    width: 175px;
-    vertical-align: middle;
-  }
+
 
 .hero {
     color: #CE751D;
