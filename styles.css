@@ -1,67 +1,53 @@
 * {
     /*background-color: #262626;*/
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav {
-    width: auto;
-    height: 50%;
-    background-color: #3e5437;
-    /*overflow: hidden;*/
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3e5437;
+  align-items: center;
+}
   
-  .logo-image {
-    margin-top: -50px;
-    height:auto;
-    width:auto;
-    float: left;
-  }
-  
-  .navbar {
+.logo-image {
     display: flex;
-    justify-content: space-around;
-    background-color: #3e5437;
     align-items: center;
+    max-width: 20vw;
+    width: 100%;
   }
 
-  .nav-links {
+.nav-links {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #3e5437;
   }
   
-  .nav-item {
+.nav-item {
     display: flex;
-    padding: 8px;
+    padding: 14px;
     justify-content: space-around;
     align-items: center;
-    background-color: #3e5437;
     font-weight: bold;
     font-size: x-large;
   }
   
-  .nav-item a {
+.nav-item a {
     display: flex;
     padding: 10px 15px;
     text-decoration: none;
     color: black;
   }
-  
-  .navtitle {
-    background-color: #3e5437;
-  }
 
-  .nav-item:hover {
+.nav-item:hover {
     background-color: #f87c23;
   }
   
-  .nav-item:hover a {
+.nav-item:hover a {
     color: #f87c23;
   }
 
-
-.hero {
+  .hero {
     color: #CE751D;
 }
