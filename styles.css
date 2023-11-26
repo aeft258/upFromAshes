@@ -1,5 +1,5 @@
 * {
-    background-color: #262626;
+    background-color: #1e1e1e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -57,9 +57,10 @@
 .hero {
     background-image: url('/fire.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     height: 100%;
-    background-position: top;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -67,32 +68,108 @@
 
 .hero-quote-background {
   display: flex;
-  margin: auto;
-  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
   margin-bottom: 0;
   background-color: #6c9360;
   opacity: 0.9;
+  background-position: center;
+  height: 50%;
+  width: 55%;
 }
 
 .hero-quote {
   display: flex;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
   background-color: #6c9360;
   opacity: 0.95;
   font-weight: medium;
   text-align: center;
   font-size: 1.2em;
   line-height: 1.75;
+  justify-content: center;
+  margin: auto;
 }
 
-.stories {
+.stories-background {
   background-image: url('/feathers.jpg');
-  background-repeat: no-repeat; 
-  background-position: right top;
-  height: 100vh;
+  background-repeat: repeat-x; 
+  background-position: right;
+  height: 50%;
+  width: 80%;
+  margin-top: 2em;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   flex: 2;
+}
+
+.stories-link-background {
+  display: flex;
+  margin-left: -30%;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #f87c23;
+  opacity: 0.9;
+  background-position: center;
+  height: 30%;
+  width: 55%;
+}
+
+.stories-link {
+  display: flex;
+  align-items: center;
+  background-color: #f87c23;
+  opacity: 0.95;
+  font-weight: medium;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.75;
+  justify-content: center;
+  margin: auto;
+  font-weight: medium;
+  font-size: 2.5em;
+}
+
+.support-background {
+  background-image: url('/regrowth.jpg');
+  background-repeat: repeat-x; 
+  background-position: left;
+  height: 50%;
+  width: 80%;
+  margin-top: 2em;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.support-link-background {
+  display: flex;
+  margin-left: auto;
+  margin-right: -30%;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #6c9360;
+  opacity: 0.9;
+  background-position: center;
+  height: 30%;
+  width: 55%;
+}
+
+.support-link {
+  display: flex;
+  align-items: center;
+  background-color: #6c9360;
+  opacity: 0.95;
+  font-weight: medium;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.75;
+  justify-content: center;
+  margin: auto;
+  font-weight: medium;
+  font-size: 2.5em;
 }
