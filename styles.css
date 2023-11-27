@@ -6,15 +6,22 @@
 .navbar {
   display: flex;
   width: 100%;
+  margin-left: -2%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+  margin-top: -2%;
+  padding-top: 2%;
+  overflow: hidden;
   justify-content: space-between;
   background-color: #3e5437;
   align-items: center;
+ 
 }
   
 .logo-image {
     display: flex;
     align-items: center;
-    padding-left: 2px;
+    padding-left: 4%;
     max-width: 10em;
     min-width: 5em;
     width: 100%;
@@ -57,10 +64,12 @@
 .hero {
     background-image: url('/fire.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 100%;
-    margin-top: 1em;
+    margin-top: -1%;
+    margin-left: -2%;
+    margin-right: -8%;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -73,6 +82,7 @@
   margin-top: 10em;
   margin-bottom: 0;
   background-color: #6c9360;
+  border-radius: 5%;
   opacity: 0.9;
   background-position: center;
   height: 50%;
@@ -100,6 +110,7 @@
   width: 80%;
   margin-top: 2em;
   margin-left: auto;
+  margin-right: -8%;
   display: flex;
   flex-direction: column;
   flex: 2;
@@ -107,7 +118,7 @@
 
 .stories-link-background {
   display: flex;
-  margin-left: -30%;
+  margin-left: -38%;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
@@ -141,6 +152,7 @@
   width: 80%;
   margin-top: 2em;
   margin-right: auto;
+  margin-left: -8%;
   display: flex;
   flex-direction: column;
   flex: 2;
@@ -149,7 +161,7 @@
 .support-link-background {
   display: flex;
   margin-left: auto;
-  margin-right: -30%;
+  margin-right: -45%;
   margin-top: auto;
   margin-bottom: auto;
   background-color: #6c9360;
